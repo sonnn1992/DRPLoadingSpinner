@@ -7,10 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DRPLoadingSpinner.h"
-#import "DRPLoadingSpinnerTimingFunction.h"
-#import "DRPRefreshControl.h"
-#import "DRPRefreshControl_Protected.h"
 
 //! Project version number for DRPLoadingSpinner_iOS.
 FOUNDATION_EXPORT double DRPLoadingSpinner_iOSVersionNumber;
