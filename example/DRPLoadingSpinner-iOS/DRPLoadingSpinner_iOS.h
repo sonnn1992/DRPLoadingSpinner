@@ -7,6 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DRPLoadingSpinner.h"
+#import "DRPLoadingSpinnerTimingFunction.h"
+#import "DRPRefreshControl.h"
+#import "DRPRefreshControl_Protected.h"
 
 //! Project version number for DRPLoadingSpinner_iOS.
 FOUNDATION_EXPORT double DRPLoadingSpinner_iOSVersionNumber;
@@ -15,5 +19,3 @@ FOUNDATION_EXPORT double DRPLoadingSpinner_iOSVersionNumber;
 FOUNDATION_EXPORT const unsigned char DRPLoadingSpinner_iOSVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <DRPLoadingSpinner_iOS/PublicHeader.h>
-
-
