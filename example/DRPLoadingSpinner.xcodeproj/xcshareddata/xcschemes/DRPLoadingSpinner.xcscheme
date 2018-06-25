@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "021AA43920E0A28B009AA0F1"
-               BuildableName = "DRPLoadingSpinner_iOS.framework"
-               BlueprintName = "DRPLoadingSpinner-iOS"
+               BuildableName = "DRPLoadingSpinner.framework"
+               BlueprintName = "DRPLoadingSpinner"
                ReferencedContainer = "container:DRPLoadingSpinner.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "021AA43920E0A28B009AA0F1"
-            BuildableName = "DRPLoadingSpinner_iOS.framework"
-            BlueprintName = "DRPLoadingSpinner-iOS"
+            BuildableName = "DRPLoadingSpinner.framework"
+            BlueprintName = "DRPLoadingSpinner"
             ReferencedContainer = "container:DRPLoadingSpinner.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "021AA43920E0A28B009AA0F1"
-            BuildableName = "DRPLoadingSpinner_iOS.framework"
-            BlueprintName = "DRPLoadingSpinner-iOS"
+            BuildableName = "DRPLoadingSpinner.framework"
+            BlueprintName = "DRPLoadingSpinner"
             ReferencedContainer = "container:DRPLoadingSpinner.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

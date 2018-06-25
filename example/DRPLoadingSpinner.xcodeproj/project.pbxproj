@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		021AA43E20E0A28C009AA0F1 /* DRPLoadingSpinner_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 021AA43C20E0A28C009AA0F1 /* DRPLoadingSpinner_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		021AA44120E0A28C009AA0F1 /* DRPLoadingSpinner_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021AA43A20E0A28B009AA0F1 /* DRPLoadingSpinner_iOS.framework */; };
-		021AA44220E0A28C009AA0F1 /* DRPLoadingSpinner_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 021AA43A20E0A28B009AA0F1 /* DRPLoadingSpinner_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		021AA44120E0A28C009AA0F1 /* DRPLoadingSpinner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021AA43A20E0A28B009AA0F1 /* DRPLoadingSpinner.framework */; };
+		021AA44220E0A28C009AA0F1 /* DRPLoadingSpinner.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 021AA43A20E0A28B009AA0F1 /* DRPLoadingSpinner.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		021AA44720E0A29F009AA0F1 /* DRPLoadingSpinner.h in Sources */ = {isa = PBXBuildFile; fileRef = D00EA4421ED2445B00371C5D /* DRPLoadingSpinner.h */; };
 		021AA44820E0A29F009AA0F1 /* DRPLoadingSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = D00EA4431ED2445B00371C5D /* DRPLoadingSpinner.m */; };
 		021AA44920E0A29F009AA0F1 /* DRPLoadingSpinnerTimingFunction.h in Sources */ = {isa = PBXBuildFile; fileRef = D00EA4441ED2445B00371C5D /* DRPLoadingSpinnerTimingFunction.h */; };
@@ -46,7 +46,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				021AA44220E0A28C009AA0F1 /* DRPLoadingSpinner_iOS.framework in Embed Frameworks */,
+				021AA44220E0A28C009AA0F1 /* DRPLoadingSpinner.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,7 +54,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		021AA43A20E0A28B009AA0F1 /* DRPLoadingSpinner_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DRPLoadingSpinner_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		021AA43A20E0A28B009AA0F1 /* DRPLoadingSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DRPLoadingSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		021AA43C20E0A28C009AA0F1 /* DRPLoadingSpinner_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRPLoadingSpinner_iOS.h; sourceTree = "<group>"; };
 		021AA43D20E0A28C009AA0F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22063EF36EB70D8966E1D890 /* libPods-DRPLoadingSpinner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DRPLoadingSpinner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,7 +68,7 @@
 		D00EA44F1ED244EA00371C5D /* DRPRefreshControl+Texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DRPRefreshControl+Texture.h"; sourceTree = "<group>"; };
 		D00EA4501ED244EA00371C5D /* DRPRefreshControl+Texture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DRPRefreshControl+Texture.m"; sourceTree = "<group>"; };
 		D00EA4521ED246EB00371C5D /* DRPRefreshControl_Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRPRefreshControl_Protected.h; sourceTree = "<group>"; };
-		D082A9FB1A12EB8400240721 /* DRPLoadingSpinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DRPLoadingSpinner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D082A9FB1A12EB8400240721 /* DRPLoadingSpinner-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DRPLoadingSpinner-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D082A9FF1A12EB8400240721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D082AA001A12EB8400240721 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D082AA021A12EB8400240721 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				021AA44120E0A28C009AA0F1 /* DRPLoadingSpinner_iOS.framework in Frameworks */,
+				021AA44120E0A28C009AA0F1 /* DRPLoadingSpinner.framework in Frameworks */,
 				8449E126190456D82C000ECF /* libPods-DRPLoadingSpinner.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,8 +175,8 @@
 		D082A9FC1A12EB8400240721 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D082A9FB1A12EB8400240721 /* DRPLoadingSpinner.app */,
-				021AA43A20E0A28B009AA0F1 /* DRPLoadingSpinner_iOS.framework */,
+				D082A9FB1A12EB8400240721 /* DRPLoadingSpinner-Demo.app */,
+				021AA43A20E0A28B009AA0F1 /* DRPLoadingSpinner.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -220,9 +220,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		021AA43920E0A28B009AA0F1 /* DRPLoadingSpinner-iOS */ = {
+		021AA43920E0A28B009AA0F1 /* DRPLoadingSpinner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 021AA44520E0A28C009AA0F1 /* Build configuration list for PBXNativeTarget "DRPLoadingSpinner-iOS" */;
+			buildConfigurationList = 021AA44520E0A28C009AA0F1 /* Build configuration list for PBXNativeTarget "DRPLoadingSpinner" */;
 			buildPhases = (
 				021AA43520E0A28B009AA0F1 /* Sources */,
 				021AA43620E0A28B009AA0F1 /* Frameworks */,
@@ -233,14 +233,14 @@
 			);
 			dependencies = (
 			);
-			name = "DRPLoadingSpinner-iOS";
+			name = DRPLoadingSpinner;
 			productName = "DRPLoadingSpinner-iOS";
-			productReference = 021AA43A20E0A28B009AA0F1 /* DRPLoadingSpinner_iOS.framework */;
+			productReference = 021AA43A20E0A28B009AA0F1 /* DRPLoadingSpinner.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D082A9FA1A12EB8400240721 /* DRPLoadingSpinner */ = {
+		D082A9FA1A12EB8400240721 /* DRPLoadingSpinner-Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D082AA1E1A12EB8400240721 /* Build configuration list for PBXNativeTarget "DRPLoadingSpinner" */;
+			buildConfigurationList = D082AA1E1A12EB8400240721 /* Build configuration list for PBXNativeTarget "DRPLoadingSpinner-Demo" */;
 			buildPhases = (
 				5B2B5CEAE6123F7BAE4E2A71 /* [CP] Check Pods Manifest.lock */,
 				D082A9F71A12EB8400240721 /* Sources */,
@@ -255,9 +255,9 @@
 			dependencies = (
 				021AA44020E0A28C009AA0F1 /* PBXTargetDependency */,
 			);
-			name = DRPLoadingSpinner;
+			name = "DRPLoadingSpinner-Demo";
 			productName = DRPLoadingSpinner;
-			productReference = D082A9FB1A12EB8400240721 /* DRPLoadingSpinner.app */;
+			productReference = D082A9FB1A12EB8400240721 /* DRPLoadingSpinner-Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -293,8 +293,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D082A9FA1A12EB8400240721 /* DRPLoadingSpinner */,
-				021AA43920E0A28B009AA0F1 /* DRPLoadingSpinner-iOS */,
+				D082A9FA1A12EB8400240721 /* DRPLoadingSpinner-Demo */,
+				021AA43920E0A28B009AA0F1 /* DRPLoadingSpinner */,
 			);
 		};
 /* End PBXProject section */
@@ -400,7 +400,7 @@
 /* Begin PBXTargetDependency section */
 		021AA44020E0A28C009AA0F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 021AA43920E0A28B009AA0F1 /* DRPLoadingSpinner-iOS */;
+			target = 021AA43920E0A28B009AA0F1 /* DRPLoadingSpinner */;
 			targetProxy = 021AA43F20E0A28C009AA0F1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -635,7 +635,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		021AA44520E0A28C009AA0F1 /* Build configuration list for PBXNativeTarget "DRPLoadingSpinner-iOS" */ = {
+		021AA44520E0A28C009AA0F1 /* Build configuration list for PBXNativeTarget "DRPLoadingSpinner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				021AA44320E0A28C009AA0F1 /* Debug */,
@@ -653,7 +653,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D082AA1E1A12EB8400240721 /* Build configuration list for PBXNativeTarget "DRPLoadingSpinner" */ = {
+		D082AA1E1A12EB8400240721 /* Build configuration list for PBXNativeTarget "DRPLoadingSpinner-Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D082AA1F1A12EB8400240721 /* Debug */,
